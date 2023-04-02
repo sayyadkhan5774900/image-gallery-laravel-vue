@@ -10,9 +10,12 @@
     <link rel="preconnect" href="https://fonts.bunny.net">
     <link href="https://fonts.bunny.net/css?family=figtree:400,600&display=swap" rel="stylesheet" />
 
-    <script src="https://cdn.tailwindcss.com"></script>
+    {{-- <script src="https://cdn.tailwindcss.com"></script> --}}
 
     @vite('resources/css/app.css')
+
+    @vite('resources/js/app.js')
+
 
 </head>
 
@@ -21,9 +24,9 @@
         <h1 class="text-4xl font-bold text-center">
             Image Uploader
         </h1>
+        <div id="app"></div>
     </div>
 
-    <div id="app"></div>
 
 	@vite('resources/js/app.js')
 </body>
